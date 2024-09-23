@@ -2,11 +2,11 @@ import * as THREE from "three";
 import "./style.css";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import gsap from "gsap";
-import { FontLoader } from "three/examples/jsm/loaders/FontLoader.js";
-import { TextGeometry } from "three/examples/jsm/geometries/TextGeometry.js";
-import { PointerLockControls } from "three/examples/jsm/controls/PointerLockControls.js";
-import { clickHandling } from "./modules/clickHandling.js";
-import { setupEventListeners } from "./modules/eventListeners.js";
+// import { FontLoader } from "three/examples/jsm/loaders/FontLoader.js";
+// import { TextGeometry } from "three/examples/jsm/geometries/TextGeometry.js";
+// import { PointerLockControls } from "three/examples/jsm/controls/PointerLockControls.js";
+// import { clickHandling } from "./modules/clickHandling.js";
+// import { setupEventListeners } from "./modules/eventListeners.js";
 
 let scene, camera, renderer, videoTexture, sphereMesh;
 let position = 0;
