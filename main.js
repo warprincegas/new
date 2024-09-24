@@ -52,7 +52,7 @@ function init() {
 
   // Load the 360° video
   const video = document.getElementById("video360");
-  video.play();
+  // video.play();
 
   // Create a video texture from the video element
   videoTexture = new THREE.VideoTexture(video);
